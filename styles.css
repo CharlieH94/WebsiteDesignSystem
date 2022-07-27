@@ -25,7 +25,7 @@ header h1 {
 
 nav {
     font-weight: bold;
-    background-color: darkgrey;
+    background-color: rgb(63, 70, 109);
     padding: 1px;
     border-radius: 0 0 10px 10px;
 }
@@ -37,7 +37,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: rgb(45, 62, 145);
+    color: white;
     
 }
 
@@ -50,6 +50,12 @@ section {
     border-radius: 10px;
     margin: 10px 50px;
     padding: 10px 30px;
+}
+
+#colours,
+#fonts,
+#text-styles {
+    color: rgb(63, 70, 109);
 }
 
 /* Colours*/
