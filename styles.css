@@ -25,7 +25,7 @@ header h1 {
 
 nav {
     font-weight: bold;
-    background-color: darkgray;
+    background-color: darkgrey;
     padding: 1px;
     border-radius: 0 0 10px 10px;
 }
@@ -52,22 +52,20 @@ section {
     padding: 10px 30px;
 }
 
-section h2 {
-
-}
-
 /* Colours*/
 
 .colour-container {
     text-align: center;
     padding: 0 0 30px 0;
 }
+
 .colour-panel {
     margin: 10px 5px;
     width: 150px;
     text-align: center;
     display: inline-block;
     color: white;
+    border-radius: 2px;
 }
 
 .colour-panel.rich-black {
@@ -95,6 +93,48 @@ section h2 {
 }
 
 /* Fonts */
+
+.font-container {
+    text-align: center;
+}
+
+.font-panel {
+    display: inline-block;
+    color: black;
+    padding: 0 75px 30px 75px;
+    margin: 0;
+}
+
+.font-panel.overpass {
+    font-family: 'Overpass', sans-serif;
+}
+
+.font-panel.fraunces {
+    font-family: 'Fraunces', serif;   
+}
+
+.font-panel.source-code {
+    font-family: 'Source Code Pro', monospace;    
+}
+
+.font-title {
+    font-size: 30px;
+    margin: 0;
+}
+
+.font-plain {
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font-bold {
+    font-weight: bold; 
+}
+
+.font-italic {
+    font-style: italic;  
+}
+
 
 
 /* Text Styles */
